@@ -1,0 +1,13 @@
+{% extends "ch-2/base.html" %}
+
+{% block title %}Future time{% endblock %}
+
+{% block content %}
+
+<p>In {{ hour_offset }} hour(s), it will be {{ next_time }}.</p>
+{% endblock %}
+
+{% block footer %}
+<hr style="background-color:dodgerblue;height:3px;">
+<a href="/time"><span>Now see current time.</span></a>
+{% endblock %}
